@@ -2,7 +2,7 @@
 
 针对 RoboMaster 云台追踪的强化学习训练项目，使用 Isaac Sim 与 Isaac Lab 进行训练。
 
-# USD文件链接
+## USD文件链接
 
 我用夸克网盘给你分享了「urdf.zip」，点击链接或复制整段内容，打开「夸克APP」即可获取。
 /~bd223Z4MXt~:/
@@ -10,6 +10,19 @@
 提取码：abm3
 
 下载好了以后将模型放到路径Path\sentry_gimbal\source\sentry_gimbal\sentry_gimbal\assets\robot
+
+## 运行的命令
+1.启动zero_agent
+F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\zero_agent.py --task Sentry-Gimbal-Tracker-v0 --num_envs 16
+
+2.启动random_agent
+F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\random_agent.py --task Sentry-Gimbal-Tracker-v0 --num_envs 16
+
+3.启动train
+F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\rsl_rl\train.py --task Sentry-Gimbal-Tracker-v0 --num_envs 512 --max_iterations 1500
+
+4.启动play
+F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\rsl_rl\play.py --task Sentry-Gimbal-Tracker-v0 --num_envs 1
 
 ## Overview
 
