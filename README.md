@@ -24,6 +24,8 @@ F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\rsl_r
 4.启动play
 F:\RM_RL\IsaacLab\isaaclab.bat -p F:\RM_RL\RmProject\sentry_gimbal\scripts\rsl_rl\play.py --task Sentry-Gimbal-Tracker-v0 --num_envs 1
 
+需要将上面的路径换成自己的路径
+
 ## Overview
 
 This project/repository serves as a template for building projects or extensions based on Isaac Lab.
