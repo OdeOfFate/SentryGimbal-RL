@@ -2,6 +2,13 @@
 
 针对 RoboMaster 云台追踪的强化学习训练项目，使用 Isaac Sim 与 Isaac Lab 进行训练。
 
+# USD文件链接
+
+我用夸克网盘给你分享了「urdf.zip」，点击链接或复制整段内容，打开「夸克APP」即可获取。
+/~bd223Z4MXt~:/
+链接：https://pan.quark.cn/s/9cb74d66382f?pwd=abm3
+提取码：abm3
+
 ## Overview
 
 This project/repository serves as a template for building projects or extensions based on Isaac Lab.
