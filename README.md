@@ -1,4 +1,6 @@
-# Template for Isaac Lab Projects
+# SentryGimbal-RL
+
+针对 RoboMaster 云台追踪的强化学习训练项目，使用 Isaac Sim 与 Isaac Lab 进行训练。
 
 ## Overview
 
@@ -17,13 +19,14 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
 - Install Isaac Lab by following the [installation guide](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html).
   We recommend using the conda or uv installation as it simplifies calling Python scripts from the terminal.
 
-- Clone or copy this project/repository separately from the Isaac Lab installation (i.e. outside the `IsaacLab` directory):
+- Clone or copy this project/repository separately from the Isaac Lab installation (i.e. outside of the `IsaacLab` directory):
 
 - Using a python interpreter that has Isaac Lab installed, install the library in editable mode using:
 
     ```bash
     # use 'PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
     python -m pip install -e source/sentry_gimbal
+    ```
 
 - Verify that the extension is correctly installed by:
 
@@ -54,6 +57,7 @@ It allows you to develop in an isolated environment, outside of the core Isaac L
             # use 'FULL_PATH_TO_isaaclab.sh|bat -p' instead of 'python' if Isaac Lab is not installed in Python venv or conda
             python scripts/zero_agent.py --task=<TASK_NAME>
             ```
+
         - Random-action agent
 
             ```bash
@@ -123,7 +127,7 @@ In this case, add the path to your extension in `.vscode/settings.json` under th
 
 If you encounter a crash in `pylance`, it is probable that too many files are indexed and you run out of memory.
 A possible solution is to exclude some of omniverse packages that are not used in your project.
-To do so, modify `.vscode/settings.json` and comment out packages under the key `"python.analysis.extraPaths"`
+To do so, modify `.vscode/settings.json` and comment out packages under the key `"python.analysis.extraPaths"`.
 Some examples of packages that can likely be excluded are:
 
 ```json
