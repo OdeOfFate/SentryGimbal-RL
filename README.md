@@ -1,0 +1,2 @@
+# SentryGimbal-RL
+针对于RoboMaster云台追踪的强化训练项目，使用IsaacSim与IsaacLab进行训练
