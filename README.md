@@ -9,6 +9,8 @@
 链接：https://pan.quark.cn/s/9cb74d66382f?pwd=abm3
 提取码：abm3
 
+下载好了以后将模型放到路径Path\sentry_gimbal\source\sentry_gimbal\sentry_gimbal\assets\robot
+
 ## Overview
 
 This project/repository serves as a template for building projects or extensions based on Isaac Lab.
